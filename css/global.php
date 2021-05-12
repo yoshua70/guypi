@@ -70,8 +70,8 @@ code {
   top: 0;
   padding: 0 10vw;
   font-weight: bold;
-  border-bottom: 1px solid var(--color-gray);
   z-index: 99;
+  box-shadow: 0px 5px 8px #888888;
 }
 
 .navbar ul {
@@ -94,6 +94,11 @@ code {
 .navbar li {
   border-radius: 50%;
   
+}
+
+.nav_title {
+  color: crimson;
+  font-size: 2rem;
 }
 
 /* Buttons */
