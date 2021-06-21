@@ -22,6 +22,14 @@
 
   <main class="main">
     <h1>Bienvenue sur le programme de gestion de la Guypi</h1>
+    
+    <a href="/pages/register.php">
+      <button>Enregistrer une nouvelle carte -></button>
+    </a>
+
+    <a href="/pages/info.php">
+      <button>Consulter les données -></button>
+    </a>
   </main>
 </body>
 </html>

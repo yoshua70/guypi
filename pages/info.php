@@ -22,6 +22,10 @@
 
   <main class="main">
     <h1>Accès aux données de la Guypi</h1>
+    <a href="liste_users.php">
+      <button>Liste des utilisateurs -></button>
+    </a>
+    
   </main>
 </body>
 </html>

@@ -30,7 +30,7 @@
       <label for="mat">Matricule :</label>
       <input type="text" name="mat"/>
       <label for="cardId">Identifiant carte :</label>
-      <input type="number" name="cardId"/>
+      <input type="text" name="cardId"/>
       <label for="residence">Résidence :</label>
       <div class="select">
         <select name="residence" size="1">

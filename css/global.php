@@ -254,6 +254,27 @@ button.btn-logo {
   background: var(--color-blue);
 }
 
+/* Table */
+table {
+  border: none;
+  box-shadow: 0px 5px 8px #888888;
+}
+
+th {
+  background-color: teal;
+}
+
+td {
+  width:150px;
+}
+
+td, th {
+  border: none;
+  padding: 0.5rem;
+  color: black;
+  font-weight: bold;
+}
+
 /* Loader */
 
 .loader {
