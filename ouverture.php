@@ -29,6 +29,9 @@ try {
   $sql = "SELECT * FROM users WHERE cardId = '$idUtilisateur' AND residence = '$residence' AND roomNum = $numChambre";
   $res = $bdd->query($sql);
 
+  $sql_1 = "INSERT INTO historique SELECT * FROM users WHERE cardId = '$idUtilisateur'";
+  $res_1 = $bdd->query($sql_1);
+
   if($res->rowCount() > 0) {
     echo("True");
   } else {

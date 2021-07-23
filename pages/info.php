@@ -25,6 +25,9 @@
     <a href="liste_users.php">
       <button>Liste des utilisateurs -></button>
     </a>
+    <a href="historique.php">
+      <button>Historique -></button>
+    </a>
     
   </main>
 </body>
